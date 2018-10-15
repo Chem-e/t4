@@ -1,0 +1,40 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+}
+.card {
+    border: 0px solid #e4e4e4;
+    padding: 1em;
+}
+.card:hover {
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+}
+.card-footer {
+    background-color: white;
+    padding: 5px 8px;
+}
+.card-title {
+    margin: 0;
+    padding: 11px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    margin-bottom: 0;
+    /*display: flex;*/
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 2em;
+    /* margin-bottom: 2em;*/
+}
+.card-deck{
+    display: flex;
+}
+
+
